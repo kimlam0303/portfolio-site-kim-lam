@@ -2,15 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kim Lam Portfolio Homepage</title>
     <script src="https://kit.fontawesome.com/c89915b1ee.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
 
     <header>
       <div>
 
-          <a href="index.html"><svg width="230px" height="230px" viewBox="0 0 230 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <a href="index.html">
+            <svg width="230px" height="230px" viewBox="0 0 230 230" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <title>Artboard</title>
               <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                   <rect id="Rectangle" stroke="#2C2C2C" stroke-width="2" fill="#FFFFFF" x="14" y="14" width="202" height="202"></rect>
@@ -50,7 +57,7 @@
     </header>
 
     <main>
-      <div>
+      <div id="hero">
        <div>
 
         <h1>
@@ -67,18 +74,18 @@
        </div>
       </div>
 <!--"My Work" Section-->
-      <div>
+      <div id="my-work">
        <div>
 
          <h2>My Work</h2>
 <!--Project 1-->
-         <div>
+         <div id="project-1">
             <!--left collumn-->
            <div>
              <a href="soundkord.html">
              <picture>
-               <source srcset="img/soundkord/small/small-cover.png" media="(max-width:767px)">
-               <img src="img/soundkord/full/full-cover.png" alt="SounKord Cover">
+               <source srcset="img/soundkord/small/small-cover.png" media="(max-width: 767px)">
+               <img src="img/soundkord/full/full-cover.png" alt="SoundKord Cover">
              </picture>
              </a>
            </div>
@@ -90,15 +97,15 @@
               such as headphones, monitor speakers etc. For this project I went through the process of branding, creating the user-flow, wireframing and
               creating mockups for multiple breakpoints.
              </p>
-             <a href="soundkord.html">View this Project</a>
+             <a href="soundkord.html" class="button">Read More</a>
            </div>
          </div>
 <!--Project 2-->
-         <div>
+         <div id="project-2">
            <!--left collumn-->
            <div>
              <picture>
-               <source srcset="img/kook'r/small-cover.png" media="(max-width:767px)">
+               <source srcset="img/kookr/small-cover.png" media="(max-width:767px)">
                <img src="img/kookr/full-cover.png" alt="KOOK.R Cover">
              </picture>
            </div>
@@ -111,7 +118,7 @@
               interview users, create user personas and a user flow. For the UI part I made a moodboard, a style guide and finally the wireframes and mockups.
               The entire UI was then made responsive to fit the screen sizes of mobile, tablet, laptop and desktop devices.
              </p>
-             <a href="#">View this Project</a>
+             <a href="#">Read More</a>
            </div>
          </div>
 <!--"My Work" Section end-->
@@ -126,12 +133,12 @@
          For any business inquieries use one of these methods
        </p>
        <!--Contact Buttons-->
-       <div>
-         <a href="mailto:kimlam0303@gmail.com">Send me an Email</a>
-         <a href="tel:+4915111822194">Call me</a>
+       <div id="contact-section">
+         <a href="mailto:kimlam0303@gmail.com" class="button contact">Send me an Email</a>
+         <a href="tel:+4915111822194" class="button contact">Call me</a>
        </div>
        <!--Social Media Buttons-->
-       <div>
+       <div id="social-media-section">
         <a href="https://www.behance.net/kimlamui" target="_blank"><i class="fab fa-behance-square"></i></a>
        </div>
        <p>Copyright Kim Lam 2021</p>

@@ -2,8 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Kim Lam</title>
     <script src="https://kit.fontawesome.com/c89915b1ee.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
 
@@ -58,11 +64,11 @@
      <div>
       <div>
           <picture>
-            <source srcset="img/my-face/my-small-face.png" media="max-width:767px">
+            <source srcset="img/my-face/my-small-face.png" media="(max-width:767px)">
             <img src="img/my-face/my-full-face.png" alt="My Face">
           </picture>
          <div>
-          <div>
+          <div id="my-story">
             <h2>My Story</h2>
             <p>
               Hi I’m Kim. I am a UI designer currently based in Munich. I make clean, captivating, engaging and functional interfaces that help people’s lives.
@@ -73,11 +79,11 @@
               perfectly applied. I spend a lot of time in front of the screen so therefore I am used to long and focused, creative working hours, figuring out
               the perfect solution to a problem.
             </p>
-            <a href="files/CV.pdf" target="_blank">Download my CV</a>
+            <a href="files/CV.pdf" target="_blank" class="button">Download my CV</a>
           </div>
           <div>
             <h2>Skills & Tools</h2>
-            <div>
+            <div id="skills-and-tools">
              <div>
               <h3>Relevant Skills</h3>
               <ul>

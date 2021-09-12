@@ -20,7 +20,21 @@ body {
   line-height: 1.6;
   color: #252525;
 }
-
+header {
+  color: transparent;
+  background-color: #93aceb;
+  padding: 0.625em 0;
+  text-align: center;
+  -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.62);
+  -moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, 0.62);
+  box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, 0.62);
+  position: fixed;
+  width: 100%
+}
+.logo {
+  max-height: 64.88px;
+  max-width: 200px;
+}
 h1, h2, h3 {
   line-height: 1.4;
 }
@@ -37,6 +51,9 @@ h2 {
 h3 {
   font-size: 1.25em;
   font-weight: 600;
+}
+.heading-centered {
+  text-align: center;
 }
 img {
   width: 100%;
@@ -91,20 +108,10 @@ a:active {
 .fab.fa-behance-square {
   font-size: 45px;
 }
-header {
-  color: transparent;
-  background-color: #93aceb;
-  padding: 0.625em 0;
-  text-align: center;
-  -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.62);
-  -moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, 0.62);
-  box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, 0.62);
-  position: fixed;
-  width: 100%
+html {
+  scroll-behavior: smooth;
 }
-.logo {
-  max-height: 64.88px;
-}
+
 /* Layout styling */
 .container {
   padding: 0 15px;
@@ -113,9 +120,7 @@ header {
   margin: 25px auto;
   padding-bottom: 25px;
   max-width: 900px;
-}
-.logo {
-  max-width: 200px;
+  border-bottom: 1px solid #252525;
 }
 nav > ul {
   list-style-type: none;
@@ -174,6 +179,9 @@ main {
 }
 #my-process {
   padding-bottom: 25px;
+}
+#soundkord-process h1 {
+  text-align: center;
 }
 .skills-and-tools {
   padding-bottom: 254px;
@@ -236,21 +244,34 @@ Medium devices (640px and larger)
   clear: both;
   display: table;
   }
+  .col-lg-5.extra {
+    float: none;
+  }
   .centered-button {
     float: left;
+  }
+  .centered-button.recenter{
+    float: none;
   }
   #about-page h3 {
     margin-top: 0;
   }
-  .heading-centered {
-    text-align: center;
+  #selfie {
+    display: block;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
-}
-#selfie {
-  display: block;
-  max-width: 480px;
-  margin-left: auto;
-  margin-right: auto;
+  #skills-and-tools {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #soundkord-process {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -262,12 +283,20 @@ Large devices (1024px or larger)
   .col-lg-5 {
     width: 45%;
   }
+  .col-lg-5.extra {
+    float: left;
+  }
   .container {
-    max-width: 1200px;
+    max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
   }
-}
+  #hero span {
+    padding-top: 5px;
+  }
+  #hero h1 {
+    padding-bottom: 15px;
+  }
 #selfie {
   max-width: 640px;
 }
@@ -281,4 +310,8 @@ Large devices (1024px or larger)
   float: none;
   margin-left: auto;
   margin-right: auto;
+}
+#soundkord-process {
+  max-width: 50%;
+}
 }

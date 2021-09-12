@@ -1,8 +1,9 @@
 /*
 Colors used:
 Primary Color (Blue): #5F84E2;
-Primary Highlighter (Light Blue): #93aceb;
-Primary Shadow (Dark Blue): #2450c2;
+Primary Light (Light Blue): #93aceb;
+Primary Light 2 (Lighter  Blue): #a9bdef;
+Primary Dark (Dark Blue): #2450c2;
 Secondary Color 1 (Green): #00cc66;
 Secondary Color 2 (Red): #E25F5F;
 Black: #252525;
@@ -144,7 +145,7 @@ nav > ul > li > a:hover {
 }
 #hero {
   text-align: center;
-  background-color: #93aceb;
+  background-color: #a9bdef;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -322,6 +323,6 @@ Large devices (1024px or larger)
   margin-right: auto;
 }
 #soundkord-process {
-  max-width: 50%;
+  max-width: 60%;
 }
 }

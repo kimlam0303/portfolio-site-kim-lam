@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
+  <body id="about-page">
 
     <header>
       <div class="container">
 
-          <a href="index.html" class="logo">
-            <img src="img/logo.png" alt="Logo">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Logo" class="logo">
         </a>
 
         <nav>
@@ -34,18 +34,18 @@
     <main>
      <div class="container">
       <div>
-       <h1>About Me</h1>
+       <h1 class="heading-centered">About Me</h1>
       </div>
      </div>
      <div class="container">
       <div>
           <picture>
             <source srcset="img/my-face/my-small-face.png" media="(max-width:767px)">
-            <img src="img/my-face/my-full-face.png" alt="My Face">
+            <img src="img/my-face/my-full-face.png" alt="My Face" id="selfie">
           </picture>
          <div>
-          <div id="my-story">
-            <h2>My Story</h2>
+          <div id="my-story" class="collumn col-md-6 col-lg-7">
+            <h2 class="heading-centered">My Story</h2>
             <p>
               Hi I’m Kim. I am a UI designer currently based in Munich. I make clean, captivating, engaging and functional interfaces that help people’s lives.
               I started my creative endeavors playing various instruments such as classical piano, electric guitar (and the triangle), which is why I pursued
@@ -55,12 +55,15 @@
               perfectly applied. I spend a lot of time in front of the screen so therefore I am used to long and focused, creative working hours, figuring out
               the perfect solution to a problem.
             </p>
-            <a href="files/CV.pdf" target="_blank" class="button cv">Download my CV</a>
+          <div class="centered-button">
+            <a href="files/CV.pdf" target="_blank" class="button">Download my CV</a>
           </div>
-          <div id="skills">
-            <h2>Skills & Tools</h2>
-            <div id="skills-and-tools">
-             <div>
+          </div>
+          </div>
+          <div class="column col-md-6 col-lg-5">
+            <h2 class="heading-centered">Skills & Tools</h2>
+            <div>
+             <div class="col-md-6" id="skills">
               <h3>Relevant Skills</h3>
               <ul>
                 <li>Wireframing</li>
@@ -70,7 +73,7 @@
                 <li>HTML</li>
               </ul>
              </div>
-             <div>
+             <div class="col-md-6" id="tools">
               <h3>Tools I use</h3>
               <ul>
                 <li>Sketch</li>
@@ -85,20 +88,18 @@
            </div>
           </div>
          </div>
-      </div>
-     </div>
+        </div>
     </main>
 
     <footer id="contact">
       <div class="container">
        <h2>Contact Me</h2>
        <p>
-         For any business inquieries use one of these methods
+         For any business inquieries:
        </p>
        <!--Contact Buttons-->
        <div id="contact-section">
-         <a href="mailto:kimlam0303@gmail.com" class="button contact">Send me an Email</a>
-         <a href="tel:+4915111822194" class="button contact">Call me</a>
+         <a href="mailto:kimlam0303@gmail.com" class="button contact">Email Me</a>
        </div>
        <!--Social Media Buttons-->
        <div id="social-media-section">
@@ -107,6 +108,7 @@
        <p id="copyright">Copyright Kim Lam 2021</p>
       </div>
     </footer>
+
 
   </body>
 </html>

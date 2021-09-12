@@ -183,8 +183,11 @@ main {
 #soundkord-process h1 {
   text-align: center;
 }
-.skills-and-tools {
-  padding-bottom: 254px;
+.col-lg-5.extra{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
 }
 .berlin-illustration {
   width: 100%;
@@ -228,6 +231,15 @@ Medium devices (640px and larger)
   }
   main {
     padding-top: 101.88px;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .container.header {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .container h1 {
     font-size: 25px;
@@ -277,6 +289,9 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 70%;
+  }
   .col-lg-7 {
     width: 55%;
   }
@@ -285,11 +300,6 @@ Large devices (1024px or larger)
   }
   .col-lg-5.extra {
     float: left;
-  }
-  .container {
-    max-width: 1800px;
-    margin-left: auto;
-    margin-right: auto;
   }
   #hero span {
     padding-top: 5px;

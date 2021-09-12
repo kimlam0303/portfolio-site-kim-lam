@@ -102,7 +102,9 @@ header {
   position: fixed;
   width: 100%
 }
-
+.logo {
+  max-height: 64.88px;
+}
 /* Layout styling */
 .container {
   padding: 0 15px;

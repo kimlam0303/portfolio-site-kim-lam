@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="410px" height="133px" viewBox="0 0 410 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>logo</title>
-    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="14" y="14" width="382" height="102"></rect>
-        <g id="Group" transform="translate(32.500000, 11.000000)" fill="#2C2C2C" fill-rule="nonzero" font-family="Montserrat-ExtraBold, Montserrat" font-size="90" font-weight="600" letter-spacing="33.5">
-            <text id="K">
-                <tspan x="0" y="87">K</tspan>
-            </text>
-            <text id="I">
-                <tspan x="64.2727273" y="87">I</tspan>
-            </text>
-            <text id="M">
-                <tspan x="87" y="87">M</tspan>
-            </text>
-            <text id="M-Copy">
-                <tspan x="259" y="87">M</tspan>
-            </text>
-            <text id="L">
-                <tspan x="172" y="87">L</tspan>
-            </text>
-            <text id="A">
-                <tspan x="209.568182" y="87">A</tspan>
-            </text>
+    <title>logo 2</title>
+    <g id="logo-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(14.000000, 11.000000)">
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" x="2" y="5" width="379" height="98"></rect>
+            <path d="M191,4 L191,104 L0,104 L0,4 L191,4 Z M32.51,24 L11.63,24 L11.63,87 L32.51,87 L32.51,71.43 L37.28,66.12 L53.03,87 L77.6,87 L51.14,51.72 L76.34,24 L53.21,24 L32.51,46.86 L32.51,24 Z M122.09,24 L104.63,24 L104.63,87 L123.98,87 L123.98,59.28 L137.66,81.33 L147.02,81.33 L160.7,58.29 L160.88,87 L180.23,87 L180.05,24 L162.59,24 L142.61,57.57 L122.09,24 Z M100,43 L79,43 L79,87 L100,87 L100,43 Z M100,24 L79,24 L79,37 L100,37 L100,24 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <g transform="translate(198.522727, 0.000000)" fill="#FFFFFF" fill-rule="nonzero" font-family="AvenirNext-UltraLight, Avenir Next" font-size="86" font-weight="200" id="LAM" letter-spacing="32.0111111">
+                <g>
+                    <text id="M-Copy">
+                        <tspan x="97.2515249" y="86">M</tspan>
+                    </text>
+                    <text id="L">
+                        <tspan x="1.9743247e-14" y="86">L</tspan>
+                    </text>
+                    <text id="A">
+                        <tspan x="45.9102978" y="86">A</tspan>
+                    </text>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

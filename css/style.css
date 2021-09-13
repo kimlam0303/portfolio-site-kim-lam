@@ -1,9 +1,9 @@
 /*
 Colors used:
 Primary Color (Blue): #5F84E2;
-Primary Light (Light Blue): #93aceb;
-Primary Light 2 (Lighter  Blue): #a9bdef;
-Primary Dark (Dark Blue): #2450c2;
+Primary Light (Light Blue): #b5dcff;
+Primary Light 2 (Lighter  Blue): #daedff;
+Primary Dark (Dark Blue): #43739e;
 Secondary Color 1 (Green): #00cc66;
 Secondary Color 2 (Red): #E25F5F;
 Black: #252525;
@@ -23,7 +23,7 @@ body {
 }
 header {
   color: transparent;
-  background-color: #93aceb;
+  background-color: #5F84E2;
   padding: 0.625em 0;
   text-align: center;
   -webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.62);
@@ -65,7 +65,6 @@ a {
 }
 a:hover,
 a:focus {
-  color: #93aceb;
   text-decoration: underline;
 }
 a:active {
@@ -78,7 +77,7 @@ a:active {
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #2450c2;
+  border-bottom: 2px solid #43739e;
   transition: 0.5s color, 0.5s background-color, 0.2s border;
 }
 .button.coming-soon {
@@ -135,17 +134,17 @@ nav > ul > li > a {
   padding: 0 10px;
   text-transform: uppercase;
   font-weight: 600;
-  background-color: transparent;
-  color: #252525;
+  color: #FFFFFF;
 }
 nav > ul > li > a:hover {
-  background-color: transparent;
-  color: #ffffff;
+  color: #daedff;
   text-decoration: none;
+  padding-right: 18px;
+  transition: 0.2s padding;
 }
 #hero {
   text-align: center;
-  background-color: #a9bdef;
+  background-color: #daedff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -238,7 +237,7 @@ Medium devices (640px and larger)
     margin-right: auto;
   }
   .container.header {
-    max-width: 1800px;
+    max-width: 1750px;
     margin-left: auto;
     margin-right: auto;
   }

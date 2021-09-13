@@ -30,7 +30,7 @@ header {
   -moz-box-shadow:    0px 3px 4px 0px rgba(50, 50, 50, 0.62);
   box-shadow:         0px 3px 4px 0px rgba(50, 50, 50, 0.62);
   position: fixed;
-  width: 100%
+  width: 100%;
 }
 .logo {
   max-height: 64.88px;

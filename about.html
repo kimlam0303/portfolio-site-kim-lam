@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Kim Lam</title>
     <script src="https://kit.fontawesome.com/c89915b1ee.js" crossorigin="anonymous"></script>
+    <title>About Kim Lam</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,16 +16,19 @@
 
     <header>
       <div class="container header">
-        <a href="index.html">
+        <div class=navtoggle id=myNavtoggle>
+          <a href="index.html">
             <img src="img/logo.svg" alt="Logo" class="logo">
-        </a>
-        <nav>
-         <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-         </ul>
-        </nav>
+          </a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
@@ -107,6 +110,8 @@
       </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js" integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+
   </body>
 </html>

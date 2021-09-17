@@ -1,0 +1,6 @@
+style.css:
+  Fill property was flagged as an error but is a valid property for SVG.
+
+script.js:
+  menuToggle is used in HTML file. Linter does not check those files, hence the error flagging.
+  $ is also defined in the HTML, but not in script.js.
